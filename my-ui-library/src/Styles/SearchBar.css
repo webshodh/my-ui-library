@@ -1,0 +1,11 @@
+/* src/Styles/SearchBar.css */
+.custom-search-bar {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .custom-search-bar .form-control {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  

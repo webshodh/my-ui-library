@@ -1,0 +1,51 @@
+/* src/Styles/StatCard.css */
+
+.stat-card {
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1rem; /* Padding around content */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+  }
+  
+  .stat-card:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+  }
+  
+  .card-count {
+    font-size: 2rem; /* Default font size for large screens */
+    margin: 0;
+  }
+  
+  .card-title {
+    font-size: 1rem; /* Default font size for large screens */
+    margin: 0;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .stat-card {
+      padding: 0.5rem; /* Reduced padding for small screens */
+    }
+  
+    .card-count {
+      font-size: 1.5rem; /* Smaller font size for small screens */
+    }
+  
+    .card-title {
+      font-size: 0.875rem; /* Smaller font size for small screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .stat-card {
+      padding: 0.25rem; /* Even smaller padding for very small screens */
+    }
+  
+    .card-count {
+      font-size: 1.25rem; /* Even smaller font size for very small screens */
+    }
+  
+    .card-title {
+      font-size: 0.75rem; /* Even smaller font size for very small screens */
+    }
+  }
+  
