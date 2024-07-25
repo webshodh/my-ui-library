@@ -5,7 +5,7 @@ import SearchBar from '../../Components/SearchBar';
 import { action } from '@storybook/addon-actions';
 
 export default {
-  title: 'Atoms/SearchBar',
+  title: 'Components/SearchBar',
   component: SearchBar,
   parameters: {
     docs: {
