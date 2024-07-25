@@ -1,5 +1,4 @@
 import React from 'react';
-import { Story } from '@storybook/react';
 import ErrorBoundary from '../../Components/ErrorBoundryWrapper'; // Adjust the import path if needed
 
 export default {
